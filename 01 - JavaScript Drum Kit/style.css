@@ -23,7 +23,10 @@ body,html {
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
-  transition: all .07s ease;
+  
+  /* Transition is only important css property in key class to animate */
+  transition: all .07s ease; 
+  
   width: 10rem;
   text-align: center;
   color: white;
@@ -31,6 +34,7 @@ body,html {
   text-shadow: 0 0 .5rem black;
 }
 
+/* add playing class to key class to have transition trigger */
 .playing {
   transform: scale(1.1);
   border-color: #ffc600;
