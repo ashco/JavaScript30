@@ -97,10 +97,12 @@
     const alpha = people.sort((a, b) => {
       const [aLast, aFirst] = a.split(', ');
       const [bLast, bFirst] = b.split(', ');
+      // const aLast = a.split(', ');
+      // const bLast = b.split(', ');
       return aLast > bLast ? 1 : -1;
     });
 
-    // console.log(alpha);
+    console.log(alpha);
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
@@ -114,7 +116,7 @@
       return obj;
     }, {}); //starts process with empty object
 
-    console.log(transpo);
+    // console.log(transpo);
 
 
   </script>
